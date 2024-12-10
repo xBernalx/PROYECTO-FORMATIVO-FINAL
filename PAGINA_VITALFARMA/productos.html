@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/CSS/carrito.css"><!-- carrito.css -->
+    <script src="js/scripts.js"></script>
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg bg-primary" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#page-top"><img src="assets/img/icon.png" alt="..." width="100"></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li>
+                            <button id="todos" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb-fill"></i> Todos los productos</button>
+                        </li>
+                        <li>
+                            <button id="vitamina" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Vitaminas</button>
+                        </li>
+                        <li>
+                            <button id="gripa" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Gripa</button>
+                        </li>
+                        <li>
+                            <button id="dolor" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Contra el dolor</button>
+                        </li>
+                        <li>
+                            <a class="boton-menu boton-carrito" href="carrito.html"><!-- carrito.html -->
+                                <i class="bi bi-cart-fill"></i><span id="numerito" class="numerito">0</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="bg-primary py-5">
+            <div class="container px-4 px-lg-5 my-5">
+                <div class="text-center text-white">
+                    <h1 class="display-4 fw-bolder">VITALFARMA</h1>
+                    <p class="lead fw-normal text-white-50 mb-0">Productos</p>
+                </div>
+            </div>
+        </header>
+        <!-- Section-->
+        <main>
+            <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+            <div id="contenedor-productos" class="contenedor-productos">
+                <!-- Esto se va a rellenar con código JS -->
+            </div>
+        </main>
+        <!-- Footer-->
+        <footer class="py-5 bg-primary">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; VitalFarma @2024</p></div>
+        </footer>
+    </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
